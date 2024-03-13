@@ -1,0 +1,6 @@
+add_executable(Chapter1 Chapter1/main.cc)
+add_executable(Chapter2 Chapter2/main.cc)
+add_executable(Chapter3 Chapter3/main.cc)
+add_executable(Chapter4 Chapter4/main.cc)
+add_executable(Chapter5 Chapter5/main.cc)
+add_executable(Common Common/stack.cc)

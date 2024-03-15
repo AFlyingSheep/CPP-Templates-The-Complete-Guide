@@ -11,3 +11,5 @@ Learning note and Demo.
 - Chapter4: Variadic Templates
 
 - Chapter5: Tricky Basicss
+
+- Chapter6: Move Semantics and enable_if<>

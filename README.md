@@ -13,3 +13,5 @@ Learning note and Demo.
 - Chapter5: Tricky Basicss
 
 - Chapter6: Move Semantics and enable_if<>
+
+- Chapter7: By Value or by Reference?

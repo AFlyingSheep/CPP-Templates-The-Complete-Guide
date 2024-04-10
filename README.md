@@ -15,3 +15,9 @@ Learning note and Demo.
 - Chapter6: Move Semantics and enable_if<>
 
 - Chapter7: By Value or by Reference?
+
+- Chapter8: Compile-Time Programming
+
+- Chapter9: Using Templates in Practice
+
+- Chapter10: Basic Template Terminology

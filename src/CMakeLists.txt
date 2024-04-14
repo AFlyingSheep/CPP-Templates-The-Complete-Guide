@@ -8,4 +8,9 @@ add_executable(Chapter7 Chapter7/main.cc)
 add_executable(Chapter8 Chapter8/main.cc)
 add_executable(Chapter9 Chapter9/main.cc Chapter9/impl.cc)
 add_executable(Chapter10 Chapter10/main.cc Chapter10/trans1.cc Chapter10/trans2.cc)
+add_executable(Chapter11 Chapter11/main.cc)
 add_executable(Common Common/stack.cc)
+
+# Something other
+add_executable(other_runtime SomethingOther/runtime_polymorphism.cc)
+add_executable(other_variant SomethingOther/variant.cc)

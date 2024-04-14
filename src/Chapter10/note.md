@@ -29,3 +29,18 @@
 
 1. 普通（即非模板）非内联函数和成员函数，以及（非内联）全局变量和静态数据成员应该在整个程序中仅定义一次；
 2. 类类型（包括结构体和联合）、模板（包括部分特化但不完全特化）以及内联函数和变量每个翻译单元最多定义一次，并且所有这些定义应该相同。
+
+# Template Arguments versus Template Parameters
+
+1. Template Parameters: 模板参数是在模板声明或定义中的关键字 template 之后列出的名称。
+2. Template Arguments：模板实参是替代 Template Parameters 的项。
+
+- Template Parameters 需要在编译时确定。
+- T 可以即为 Template Parameters 又为 Template Arguments。如：
+```C++
+template<typename T>
+class Dozen {
+  public:
+  ArrayInClass<T,12> contents;
+};
+```

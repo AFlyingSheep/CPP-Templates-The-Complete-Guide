@@ -2,6 +2,8 @@
 
 Learning note and Demo.
 
+---- Part 1: The Basics ----
+
 - Chapter1: Function Templates
 
 - Chapter2: Class Templates
@@ -21,3 +23,5 @@ Learning note and Demo.
 - Chapter9: Using Templates in Practice
 
 - Chapter10: Basic Template Terminology
+
+- Chapter11: Generic Libraries

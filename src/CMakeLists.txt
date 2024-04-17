@@ -1,3 +1,4 @@
+# Part 1
 add_executable(Chapter1 Chapter1/main.cc)
 add_executable(Chapter2 Chapter2/main.cc)
 add_executable(Chapter3 Chapter3/main.cc)
@@ -14,3 +15,8 @@ add_executable(Common Common/stack.cc)
 # Something other
 add_executable(other_runtime SomethingOther/runtime_polymorphism.cc)
 add_executable(other_variant SomethingOther/variant.cc)
+
+# Part 3
+add_executable(Chapter18 Chapter18/main.cc)
+add_executable(Chapter19 Chapter19/main.cc)
+add_executable(Chapter19-SFINAE Chapter19/SFINAE/main.cc)

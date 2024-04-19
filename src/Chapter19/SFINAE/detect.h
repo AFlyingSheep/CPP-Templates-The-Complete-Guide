@@ -1,4 +1,5 @@
 #pragma once
+#include <functional>
 #include <iostream>
 #include <type_traits>
 
@@ -72,11 +73,17 @@ constexpr auto hasFirst =
 constexpr auto hasSizeType =
     isValid([](auto x) -> typename decltype(valueT(x))::size_type {});
 
-constexpr auto hasLess =
-    isValid([](auto x, auto y) -> decltype(std::declval<decltype(valueT(x))>() <
-                                           std::declval<decltype(valueT(y))>()) {});
+constexpr auto hasLess = isValid(
+    [](auto x, auto y) -> decltype(std::declval<decltype(valueT(x))>() <
+                                   std::declval<decltype(valueT(y))>()) {});
+constexpr auto hasHash =
+    isValid([](auto x) -> decltype(std::hash<decltype(valueT(x))>()) {});
 
 void test_lambda() {
   std::cout << "Lambda Test:\n";
   std::cout << hasLess(type<int>, type<int>) << std::endl;
+  std::cout << hasHash(type<int>) << std::endl;
+
+  int y;
+  std::hash<int>();
 }

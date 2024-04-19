@@ -25,3 +25,11 @@ Learning note and Demo.
 - Chapter10: Basic Template Terminology
 
 - Chapter11: Generic Libraries
+
+---- Part 3: Templates and Design ----
+
+- Chapter18: The Polymorphic Power of Templates
+
+- Chapter19: Implementing Traits
+
+- Chapter20: Overloading on Type Properties

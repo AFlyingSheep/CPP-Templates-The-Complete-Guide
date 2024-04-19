@@ -33,3 +33,6 @@ Learning note and Demo.
 - Chapter19: Implementing Traits
 
 - Chapter20: Overloading on Type Properties
+
+---- Reference ----
+[Sample Code](http://www.tmplbook.com/)

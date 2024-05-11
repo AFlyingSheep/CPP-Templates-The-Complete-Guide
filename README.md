@@ -34,5 +34,9 @@ Learning note and Demo.
 
 - Chapter20: Overloading on Type Properties
 
+- Chapter21: Templates and Inheritance
+
+- Chapter22: Bridging Static and Dynamic Polymorphism
+
 ---- Reference ----
 [Sample Code](http://www.tmplbook.com/)

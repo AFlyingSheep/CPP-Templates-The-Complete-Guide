@@ -38,5 +38,7 @@ Learning note and Demo.
 
 - Chapter22: Bridging Static and Dynamic Polymorphism
 
+- Chapter23: Metaprogramming
+
 ---- Reference ----
 [Sample Code](http://www.tmplbook.com/)

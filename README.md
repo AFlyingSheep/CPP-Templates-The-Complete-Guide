@@ -40,5 +40,7 @@ Learning note and Demo.
 
 - Chapter23: Metaprogramming
 
+- Chapter24: Typelists
+
 ---- Reference ----
 [Sample Code](http://www.tmplbook.com/)

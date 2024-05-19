@@ -42,5 +42,7 @@ Learning note and Demo.
 
 - Chapter24: Typelists
 
+- Chapter25: Tuples
+
 ---- Reference ----
 [Sample Code](http://www.tmplbook.com/)

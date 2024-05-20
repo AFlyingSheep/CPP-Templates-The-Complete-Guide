@@ -44,5 +44,7 @@ Learning note and Demo.
 
 - Chapter25: Tuples
 
+- Chapter26: Discriminated Unions
+
 ---- Reference ----
 [Sample Code](http://www.tmplbook.com/)

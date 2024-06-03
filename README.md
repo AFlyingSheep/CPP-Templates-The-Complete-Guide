@@ -46,5 +46,7 @@ Learning note and Demo.
 
 - Chapter26: Discriminated Unions
 
+- Chapter27: Expression Templates
+
 ---- Reference ----
 [Sample Code](http://www.tmplbook.com/)

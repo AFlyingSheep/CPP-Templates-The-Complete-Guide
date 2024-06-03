@@ -27,3 +27,5 @@ add_executable(Chapter23 Chapter23/main.cc)
 add_executable(Chapter24 Chapter24/main.cc)
 add_executable(Chapter25 Chapter25/main.cc)
 # add_executable(Chapter26 Chapter25/main.cc) # No source file
+add_executable(Chapter27 Chapter27/main.cc)
+

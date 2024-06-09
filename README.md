@@ -48,5 +48,7 @@ Learning note and Demo.
 
 - Chapter27: Expression Templates
 
+- Chapter28: Debugging Templates
+
 ---- Reference ----
 [Sample Code](http://www.tmplbook.com/)
